@@ -1,0 +1,9 @@
+CREATE TABLE usertable(username VARCHAR(20) PRIMARY KEY ,password VARCHAR(20));
+commit;
+INSERT INTO usertable (username,password) VALUES('A1','a');
+INSERT INTO usertable (username,password) VALUES('B1','b');
+INSERT INTO usertable (username,password) VALUES('E','');
+INSERT INTO usertable (username,password) VALUES('F','');
+INSERT INTO usertable (username,password) VALUES('Abc','123');
+INSERT INTO usertable (username,password) VALUES('def','123');
+commit;
